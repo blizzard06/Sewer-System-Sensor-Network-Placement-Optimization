@@ -1,0 +1,14 @@
+Inputs:
+  create_graph:
+    folder_path: /Users/thomaschen/Desktop/Misc/Lumiere_Aditya/Data
+    input_kml: bengaluru_mixed_split_lines.json
+    crs_code: EPSG:3395
+    # if a unique ID exists (as a column), give it the name
+    # if none exists, write Null, and one will be created
+    id_col: OBJECTID
+  reachable_pipes:
+    folder_path: /Users/thomaschen/Desktop/Misc/Lumiere_Aditya/Data
+    graph_pickle: graph.pickle
+    id_attribute: identifier
+    length_attribute: length
+    search_limit: 1000 # in meters
