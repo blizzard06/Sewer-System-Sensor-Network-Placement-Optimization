@@ -12,3 +12,12 @@ Inputs:
     id_attribute: identifier
     length_attribute: length
     search_limit: 1000 # in meters
+  random_simulation:
+    folder_path: /Users/thomaschen/Desktop/Misc/Lumiere_Aditya/Data
+    graph_pickle: graph.pickle
+    coverage_pickle: reachable_pipes_output.pickle
+    id_attribute: identifier
+    length_attribute: length
+    N: 600
+    num_iterations: 1000
+    random_seed: 42 # set to Null for no seed
